@@ -1,3 +1,5 @@
+/* App.css */
+
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
@@ -87,36 +89,17 @@ body {
 .skill-logo {
   width: 50px; 
   height: 50px; 
+  transition: transform 0.3s ease; 
 }
 
-/* Experience and Education Items */
-.experience-item,
-.education-item {
-  margin-bottom: 15px; 
-}
-
-.experience-item h4,
-.education-item h4 {
-  color: #689f38; 
-  font-weight: bold; 
-}
-
-/* Footer Styles */
-.resume-footer {
-  text-align: center; 
-  font-size: 0.9em; 
-  color: #777; 
-  margin-top: 20px; 
-  padding: 10px; 
-  background-color: #e8f5e9; 
-  border-radius: 8px; 
+.skill-logo:hover {
+  transform: scale(1.2); 
 }
 
 /* Projects Section */
 .projects-grid {
   display: grid; 
   grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: repeat(2, auto);
   gap: 20px; 
 }
 
@@ -131,21 +114,38 @@ body {
   color: white; 
   border: none; 
   border-radius: 5px; 
-  padding: 10px 15px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease, transform 0.3s ease; 
+  padding: 10px; 
   width: 100%; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 .project-button:hover {
   background-color: #004d40; 
-  transform: translateY(-2px); 
 }
 
 .project-description {
   margin-top: 10px; 
-  padding: 10px; 
-  background-color: #c8e6c9; 
-  border-radius: 5px; 
+  color: #555; 
+}
+
+/* Education and Certificates Sections */
+ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.education-item,
+.certificate-item {
+  margin-bottom: 10px; 
+}
+
+/* Footer */
+.resume-footer {
   text-align: center; 
+  padding: 10px; 
+  background-color: #e0f7fa; 
+  border-radius: 8px; 
+  margin-top: 20px; 
+  color: #00796b; 
 }
