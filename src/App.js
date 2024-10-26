@@ -1,3 +1,4 @@
+// App.js
 import React, { useState } from 'react';
 import './App.css';
 import htmlLogo from "./images/html-logo.png";
@@ -22,13 +23,7 @@ const App = () => {
       { name: "React", logo: reactLogo },
       { name: "IoT", logo: iotLogo },
     ],
-    experience: [
-      {
-        jobTitle: " ",
-        duration: " ",
-        description: " ",
-      },
-    ],
+    experience: [],
     education: [
       {
         degree: "BE Computer Engineer",
@@ -129,21 +124,6 @@ const App = () => {
           ))}
         </div>
       </section>
-
-      {/* 
-      <section className="resume-section experience">
-        <h3>Experience</h3>
-        <ul>
-          {resumeData.experience.map((job, index) => (
-            <li key={index} className="experience-item">
-              <h4>{job.jobTitle}</h4>
-              <p>{job.duration}</p>
-              <p>{job.description}</p>
-            </li>
-          ))}
-        </ul>
-      </section> 
-      */}
 
       <section className="resume-section education">
         <h3>Education</h3>
