@@ -68,22 +68,10 @@ const App = () => {
         link: "https://coursera.org/share/cc059b8ac2ebb3d9a3a4757f064de74d",
       },
       {
-        title: "AWS Cloudfront: Serve content from multiple S3 buckets",
-        issuer: "Coursera",
-        year: "2024",
-        link: "https://coursera.org/share/fac92deed60e98dd8f51ba7b6c2ab299",
-      },
-      {
         title: "Introduction to Flutter",
         issuer: "Simplilearn - Skillup",
         year: "2024",
         link: "https://simpli-web.app.link/e/Y1bdyCn30Nb",
-      },
-      {
-        title: "TCS MasterCra TM DataPlus",
-        issuer: "TCS iON",
-        year: "2024",
-        link: "https://drive.google.com/file/d/1x_HcxIJ7xOHUhxHdau6d5Fv5V5DGRFGa/view?usp=sharing",
       },
     ],
   });
