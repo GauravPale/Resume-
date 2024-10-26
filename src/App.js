@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import htmlLogo from "./images/html-logo.png"
-import cssLogo from "./images/css-logo.png"
-import iotLogo from "./images/iot-logo.png"
-import reactLogo from "./images/react-logo.png"
-import javascriptLogo from "./images/javascript-logo.png"
+import htmlLogo from "./images/html-logo.png";
+import cssLogo from "./images/css-logo.png";
+import iotLogo from "./images/iot-logo.png";
+import reactLogo from "./images/react-logo.png";
+import javascriptLogo from "./images/javascript-logo.png";
 
 const App = () => {
   const [resumeData] = useState({
@@ -16,18 +16,17 @@ const App = () => {
     },
     about: "As a Computer Engineering student, I am passionate about turning ideas into reality through IoT, robotics, and skilled in software testing. Driven by curiosity and a passion for tech to create efficient solutions for real-world impact.",
     skills: [
-      { name: "HTML", logo: htmlLogo },   // logo path
-      { name: "CSS", logo: cssLogo },     // logo path
-      { name: "JavaScript", logo: javascriptLogo }, //  logo path
-      { name: "React", logo: reactLogo },  //  logo path
-      { name: "IoT", logo: iotLogo },      //  logo path
-      
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React", logo: reactLogo },
+      { name: "IoT", logo: iotLogo },
     ],
     experience: [
       {
-        jobTitle: "Project Title (if any)",
-        duration: "Month Year - Month Year",
-        description: "Description of your project or experience.",
+        jobTitle: " ",
+        duration: " ",
+        description: " ",
       },
     ],
     education: [
@@ -60,13 +59,31 @@ const App = () => {
         title: "Create a Lead Generation Messenger Chatbot using Chatfuel",
         issuer: "Coursera Project Network",
         year: "2024",
-        link: "https://coursera.org/share/64e486f040a05f55a3e8b8e5c724356e", // link
+        link: "https://coursera.org/share/64e486f040a05f55a3e8b8e5c724356e",
       },
       {
         title: "Azure: Create a REST API using NodeJS Serverless Functions",
         issuer: "Coursera",
         year: "2024",
-        link: "https://coursera.org/share/cc059b8ac2ebb3d9a3a4757f064de74d", // link
+        link: "https://coursera.org/share/cc059b8ac2ebb3d9a3a4757f064de74d",
+      },
+      {
+        title: "AWS Cloudfront: Serve content from multiple S3 buckets",
+        issuer: "Coursera",
+        year: "2024",
+        link: "https://coursera.org/share/fac92deed60e98dd8f51ba7b6c2ab299",
+      },
+      {
+        title: "Introduction to Flutter",
+        issuer: "Simplilearn - Skillup",
+        year: "2024",
+        link: "https://simpli-web.app.link/e/Y1bdyCn30Nb",
+      },
+      {
+        title: "TCS MasterCra TM DataPlus",
+        issuer: "TCS iON",
+        year: "2024",
+        link: "https://drive.google.com/file/d/1x_HcxIJ7xOHUhxHdau6d5Fv5V5DGRFGa/view?usp=sharing",
       },
     ],
   });
@@ -125,6 +142,7 @@ const App = () => {
         </div>
       </section>
 
+      {/* 
       <section className="resume-section experience">
         <h3>Experience</h3>
         <ul>
@@ -136,7 +154,8 @@ const App = () => {
             </li>
           ))}
         </ul>
-      </section>
+      </section> 
+      */}
 
       <section className="resume-section education">
         <h3>Education</h3>
