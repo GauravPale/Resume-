@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; 
+  color: #333; 
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Resume Container */
+.resume {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+/* Header Styles */
+.resume-header {
+  text-align: center; 
+  padding: 20px; 
+  background-color: #e0f7fa; 
+  border-radius: 8px; 
+  margin-bottom: 20px; 
+}
+
+.resume-header h1 {
+  font-size: 2em; 
+  color: #00796b; 
+}
+
+.resume-header h2 {
+  font-size: 1.2em; 
+  color: #004d40; 
+}
+
+/* Contact Info Links */
+.contact-info a {
+  color: #00796b; 
+  text-decoration: none; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+  margin: 0 10px; 
+}
+
+.contact-info a:hover {
+  color: #004d40; 
+  transform: scale(1.1); 
+  text-decoration: underline; 
+}
+
+/* Section Styles */
+.resume-section {
+  margin-bottom: 20px; 
+  padding: 20px; 
+  background-color: #f1f8e9; 
+  border-radius: 8px; 
+}
+
+.resume-section h3 {
+  color: #33691e; 
+  font-size: 1.5em; 
+  margin-bottom: 10px; 
+}
+
+.about p {
+  color: #555; 
+  font-size: 1.1em; 
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 15px; 
+}
+
+.skill-item {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 80px; 
+  text-align: center; 
+}
+
+.skill-logo {
+  width: 50px; 
+  height: 50px; 
+}
+
+/* Experience and Education Items */
+.experience-item,
+.education-item {
+  margin-bottom: 15px; 
+}
+
+.experience-item h4,
+.education-item h4 {
+  color: #689f38; 
+  font-weight: bold; 
+}
+
+/* Footer Styles */
+.resume-footer {
+  text-align: center; 
+  font-size: 0.9em; 
+  color: #777; 
+  margin-top: 20px; 
+  padding: 10px; 
+  background-color: #e8f5e9; 
+  border-radius: 8px; 
+}
+
+/* Projects Section */
+.projects-grid {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, auto);
+  gap: 20px; 
+}
+
+.project-item {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.project-button {
+  background-color: #00796b; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 15px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  width: 100%; 
+}
+
+.project-button:hover {
+  background-color: #004d40; 
+  transform: translateY(-2px); 
+}
+
+.project-description {
+  margin-top: 10px; 
+  padding: 10px; 
+  background-color: #c8e6c9; 
+  border-radius: 5px; 
+  text-align: center; 
+}
